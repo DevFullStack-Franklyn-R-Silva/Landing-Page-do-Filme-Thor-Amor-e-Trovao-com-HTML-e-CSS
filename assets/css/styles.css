@@ -62,7 +62,8 @@ body {
     width: 100%;
     background-image: linear-gradient(to top, black, transparent);
 }
-.backdrop-cima-secao-conteudo{
+
+.backdrop-cima-secao-conteudo {
     top: 0px;
     height: 150px;
     width: 100%;
@@ -71,4 +72,34 @@ body {
 
 .conteudo {
     height: 1500px;
+    color: white;
+}
+
+.div-ingresso {
+    margin-top: 230px;
+}
+
+.max-width {
+    max-width: 600px;
+}
+
+.titulo-conteudo {
+    font-size: 150%;
+}
+
+.img-titulo-filme {
+    max-width: 600px;
+    width: 100%;
+    mix-blend-mode: screen;
+}
+
+.btn-theme {
+    background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
+    border: 2px solid transparent;
+    color: rgb(255, 255, 255);
+    padding: 5px 30px;
+    transition: all 0.5s ease 0s !important;
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
